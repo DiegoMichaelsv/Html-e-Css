@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+:root{
+    --cor1: #CEAEAF;
+    --cor2: #E8C5BF;
+    --cor3: #F2D1CA;
+    --cor4: #FAF5EF;
+    --font0: 'Dancing Script',cursive;  
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap') ;  
+
+*{
+    padding: 0px;
+    margin: 0px;
+  }
+body{
+    
+    background-color: var(--cor1);
+    
+}
+header{
+    font-family: var(--font0);
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
+    
+}
+nav{
+    background-color: var(--cor4);
+}
+main{
+    background-color: var(--cor2);
+    margin: auto;
+    max-width: 800px;
+    min-width: 300px;
+    border-radius: 10px
+    
+}
+
+
+

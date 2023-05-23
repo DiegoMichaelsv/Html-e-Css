@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aqua;
+            margin: 0px;
+
+        }
+        header{
+            background-color: aquamarine;
+           
+            margin: 5px;
+        
+        }
+        nav{
+            
+            background-color: black;
+            padding-right: 10px ;
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.432);
+        }
+        nav > a{
+            color: white;
+            margin-right: 10px;
+
+        }
+        nav > a:hover{
+            text-decoration: double;
+        }
+        section > aside{
+            text-align: center;
+            background-color: blanchedalmond;
+            color: blueviolet;
+            padding: 5px;
+            
+        }
+        main {
+            background-color: blueviolet;
+            color: aquamarine;
+            margin: 5px;
+            border-radius: 5px;
+        }
+        h2{
+            color: black;
+            text-align: center;
+        }
+        footer{
+            background-color: brown;
+            color: white; 
+            padding: 1px;
+            margin: 5px;
+            text-align: center;
+            border-radius: 5px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Revista do rock</h1>
+    <nav>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+    </nav>
+    </header>
+    <main>
+        <section id="assunto"> 
+            <article >
+                <h2>Rock</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus sequi praesentium minima repudiandae blanditiis magni nulla, rerum sed enim debitis velit expedita eaque consequuntur possimus recusandae. Tempora doloremque placeat animi!</p>
+            </article>
+            <aside>Diego Michael</aside>
+        </section>
+    </main>
+    <footer>Desenvolvido em aula</footer>
+</body>
+</html>

@@ -1,0 +1,25 @@
+@charset "UTF-8";
+body{
+    background-color: bisque;
+}
+
+header{
+    background-color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.288);
+
+}
+header h1{
+    color: darkgreen;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.288);
+}
+header p{
+    color: blue;
+}
+main{
+    background-color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    padding: 10px;
+}
+
