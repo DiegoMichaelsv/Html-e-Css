@@ -1,1 +1,51 @@
 @charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background-color: black;
+    color: white;
+    padding: 100px;
+    text-align: center;
+    
+}
+header h1{
+    font-size: 5em;
+}
+header a:hover{
+    color: white;
+}
+header p{
+    font-size: 1em;
+    
+}
+
+article{
+    padding: 10px;
+    font-size: 3em;
+    line-height: 1.8em;
+}
+
+article#joaninha{
+    background-image: url('background001.jpg');
+    
+}
+article#joaninha p{
+    background-color: black;
+    color: white;
+    width: 40%;
+    padding: 10px;
+    
+}
+article#letras{
+    background-image: url('background002.jpg');
+}
+article#letras p{
+    background-color: rgba(0, 0, 0, 0.397);
+    color: white;
+    width: 40%;
+    padding: 10px;
+}
