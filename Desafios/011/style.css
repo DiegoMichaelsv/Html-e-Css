@@ -22,18 +22,21 @@ header p{
     font-size: 1em;
     
 }
-
+main#container{
+    position: relative;
+}
 article{
     padding: 10px;
     font-size: 3em;
     line-height: 1.8em;
 }
 
-article#joaninha{
+section#joaninha{
     background-image: url('background001.jpg');
+    position: absolute;
     
 }
-article#joaninha p{
+section#joaninha p{
     background-color: black;
     color: white;
     width: 40%;
@@ -42,6 +45,7 @@ article#joaninha p{
 }
 article#letras{
     background-image: url('background002.jpg');
+    position: absolute;
 }
 article#letras p{
     background-color: rgba(0, 0, 0, 0.397);
