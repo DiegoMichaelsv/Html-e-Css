@@ -10,14 +10,36 @@
             font-family: Arial, Helvetica, sans-serif;
 
         }
-        
+        caption{
+            background-color: lightgray;
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 8px;
+        }
         table{
             border-collapse: collapse;
             width: 500px;
+            position: relative;
         }
         td, th{
             border: 1px solid black;
             padding: 5px;
+        }
+        thead > tr >th{
+            position: sticky;
+            top: -1px;
+            background-color: rgb(153, 153, 153); ;
+
+        }
+        tbody > tr:hover{
+            background-color: gray;
+            transition: 0.3s;
+            font-weight: bold;
+            font-style: italic;
+
+        }
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
         }
         th{
             background-color: rgb(153, 153, 153);
@@ -29,12 +51,13 @@
 </head>
 <body>
     <h1>Uso de tabelas grandes</h1>
-    <caption>Populção da união federativa</caption>
+   
     <table>
+         <caption>Populção da união federativa</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
         
@@ -151,7 +174,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total</th>
+                <th scope="row">Total</th>
                 <td class="numero"><strong>201.147.125</strong></td>
             </tr>
         </tfoot>
