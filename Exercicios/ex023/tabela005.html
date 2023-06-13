@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            width: 500px;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: auto;8px
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 8px;
+        }
+        col.cnome{
+            background-color: blue;
+           
+        }
+        col.csexo{
+            background-color: red;
+        }
+        col.cidade{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercícios de Tabela</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>M</td>
+            <td>64</td>
+            <td>Mestre de Obras</td>
+        </tr>
+        <tr>
+            <td>Isabela</td>
+            <td>F</td>
+            <td>26</td>
+            <td>Empresária</td>
+        </tr>
+        <tr>
+            <td>Stela</td>
+            <td>F</td>
+            <td>22</td>
+            <td>Doceira</td>
+        </tr>
+        <tr>
+            <td>Marcelo</td>
+        <td>M</td>
+        <td>27</td>
+        <td>Contador</td>
+    </tr>
+    <tr>
+        <td>Diego</td>
+        <td>M</td>
+        <td>31</td>
+        <td>Desempregado</td>
+    </tr>
+    <tr>
+        <td>Cleonice</td>
+        <td>F</td>
+        <td>62</td>
+        <td>Dona de casa</td>
+    </tr>
+    </table>
+</body>
+</html>
